@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    $("#web").on("click",function(){
+        $("#06izquierda").show();
+        $("#06derecha").show();
+        $(".redesSociales").show();
+        $(".video06").show();
+        $(".link06").show();
+        $("#00izquierda").hide(1000);
+        $("#00derecha").hide(1000);
+    });
+    $("#back").on("click",function(){
+        console.log('click');
+        $("#00izquierda").toggle();
+        $("#00derecha").toggle();
+        $("#06izquierda").toggle(1000);
+        $("#06derecha").toggle(1000);
+        $(".redesSociales").toggle(1000);
+        $(".video06").toggle(1000);
+        $(".link06").toggle(1000);
+    });
+});
