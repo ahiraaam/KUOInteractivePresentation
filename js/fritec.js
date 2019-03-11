@@ -1,67 +1,54 @@
 
 $(document).ready(function(){
+    $(".fritec1").hide();
+    $(".fritec2").hide();
+    $(".fritec3").hide();
+    $(".fritec4").hide();
+    $("#00izquierda").show(1000);
+    $("#00derecha").show(1000);
+
     $("#infrastructure").on("click",function(){
-        $("#01izquierda").show();
-        $("#01derecha").show();
+        $(".fritec1").show();
+        $(".fritec2").hide();
+        $(".fritec3").hide();
+        $(".fritec4").hide();
         $("#00izquierda").hide(1000);
         $("#00derecha").hide(1000);
-        $("#02izquierda").hide(1000);
-        $("#02derecha").hide(1000);
-        $("#03izquierda").hide(1000);
-        $("#03derecha").hide(1000);
-        $("#04izquierda").hide(1000);
-        $("#04derecha").hide(1000);
        
     });
     $("#technology").on("click",function(){
-        $("#02izquierda").show();
-        $("#02derecha").show();
+        $(".fritec1").hide();
+        $(".fritec2").show();
+        $(".fritec3").hide();
+        $(".fritec4").hide();
         $("#00izquierda").hide(1000);
         $("#00derecha").hide(1000);
-        $("#01izquierda").hide(1000);
-        $("#01derecha").hide(1000);
-        $("#03izquierda").hide(1000);
-        $("#03derecha").hide(1000);
-        $("#04izquierda").hide(1000);
-        $("#04derecha").hide(1000);
     });
     $("#laboratory").on("click",function(){
-        $("#03izquierda").show();
-        $("#03derecha").show();
+        $(".fritec1").hide();
+        $(".fritec2").hide();
+        $(".fritec3").show();
+        $(".fritec4").hide();
         $("#00izquierda").hide(1000);
         $("#00derecha").hide(1000);
-        $("#01izquierda").hide(1000);
-        $("#01derecha").hide(1000);
-        $("#02izquierda").hide(1000);
-        $("#02derecha").hide(1000);
-        $("#04izquierda").hide(1000);
-        $("#04derecha").hide(1000);
     });
     $("#awards").on("click",function(){
-        $("#04izquierda").show();
-        $("#04derecha").show();
+        $(".fritec1").hide();
+        $(".fritec2").hide();
+        $(".fritec3").hide();
+        $(".fritec4").show();
         $("#00izquierda").hide(1000);
         $("#00derecha").hide(1000);
-        $("#01izquierda").hide(1000);
-        $("#01derecha").hide(1000);
-        $("#02izquierda").hide(1000);
-        $("#02derecha").hide(1000);
-        $("#03izquierda").hide(1000);
-        $("#03derecha").hide(1000);
     
     });
     $("#back").on("click",function(){
-        console.log('click');
-        $("#00izquierda").show();
-        $("#00derecha").show();
-        $("#01izquierda").hide(1000);
-        $("#01derecha").hide(1000);
-        $("#02izquierda").hide(1000);
-        $("#02derecha").hide(1000);
-        $("#03izquierda").hide(1000);
-        $("#03derecha").hide(1000);
-        $("#04izquierda").hide(1000);
-        $("#04derecha").hide(1000);
+        
+        $(".fritec1").hide();
+        $(".fritec2").hide();
+        $(".fritec3").hide();
+        $(".fritec4").hide();
+        $("#00izquierda").show(1000);
+        $("#00derecha").show(1000);
  });
 });
 
