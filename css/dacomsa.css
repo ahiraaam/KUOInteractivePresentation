@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-image: url("../img/Dacomsa/fondo.jpg");
     font-family: 'Myriad Pro Regular';
+    cursor: pointer;
 
 }
 
@@ -159,4 +160,29 @@ margin: 0;
     position: absolute;
     width: 70%;
     height: 100%;
+}
+
+.plecasAños{
+    width: 57%;
+    height: 5%;
+    margin: 0;
+    top: 30%;
+    position: absolute;
+    left: 43%;
+    display: flex;
+}
+.plecasAños img{
+    width: 8%;
+    height: 100%;
+    float: left;
+    margin-right: 0.3%;
+}
+.plecasAños p{
+    width: 8%;
+    height: 100%;
+    float: left;
+    /* margin-right: 1%; */
+    margin-left: 1%;
+    /* font-size: 40px; */
+    margin-top: 1%;
 }
