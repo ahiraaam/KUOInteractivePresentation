@@ -7,39 +7,29 @@ p{
   font-family: 'Myriad Pro Regular';
   font-weight:normal;
 } 
-  .contenedor {
-    position: relative;
-    height: 290px;
-    width: 290px;
-    margin: 50px 20px;
-    float: left;
-  }
-  
-  .contenedor img {
-    position: absolute;
-    left: 0;
-    transition: opacity 1.5s ease-in-out;
-  }
-  
+
+ 
   .contenedor img.top:hover {
     opacity: 0;
   }
   
 .contenedorLogos {
   position: absolute;
-    top: 70%;
+  width: 55%;
+  height: 30%;
+    top: 65%;
     display: flex;
     align-items: center;
-    left:26%;
+    left: 23%;
+    margin: 10%
     transform: translate(-50%);
 
 }
 
 .logo{
-  width: 120px;
-  height: 100px;
+  width: 90%;
+  height:90%;
   float: left;
-  margin: 10px;
   transition: opacity 0.5s ease-in-out;
 }
 
