@@ -191,22 +191,52 @@ margin: 0;
     left: 80%;
 
 }
+.left carousel-control{
+    
+    position: absolute; 
+    right: 70%;
+}
+.right carousel-control{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: -.2%;
+}
+#suCarousel{
+    left: 1%;
+    width: 70%;
+}
+#unCarousel{
+    left: 1%;
+    width: 90%;
+}
+.imgCentro{
+    position: absolute;
+    width:60%;
+    top: 42%;
+    left: 20%;
+}
 
+.imgCentro img{
+    width: 100%;
+}
+
+
+.imgSmallKUO{
+    float: left;
+    width: 40%;
+    margin: 0;
+    top: 53%;
+    left: 55%;
+    height: 13%;
+    position: absolute;
+}
 .imgSmall{
     float: left;
     width: 50%;
     margin: 0;
      top: 53%;
      left: 8%;
-    height: 13%;
-    position: absolute;
-}
-.imgSmallKUO{
-    float: left;
-    width: 50%;
-    margin: 0;
-    top: 53%;
-    left: 55%;
     height: 13%;
     position: absolute;
 }
@@ -217,7 +247,7 @@ margin: 0;
 }
 .imgSmall img{
     position: absolute;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 .imgSmallKUO div{
@@ -227,7 +257,7 @@ margin: 0;
 }
 .imgSmallKUO img{
     position: absolute;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
@@ -312,4 +342,160 @@ margin: 0;
     left: 16%;
     top: 10%;
     position: absolute;
+}
+
+
+ 
+.imgCentro{
+    position: absolute;
+    width:60%;
+    top: 42%;
+    left: 20%;
+}
+
+.imgCentro img{
+    width: 100%;
+}
+
+.botCentro{
+  position: absolute;
+  width: 70%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    left: 13%;
+    margin: 30%
+    transform: translate(-50%);
+
+}
+
+.botCentro img{
+    width: 100%;
+    margin: 10%;
+
+}
+
+
+.imgCentro{
+    position: absolute;
+    width:60%;
+    top: 42%;
+    left: 20%;
+}
+
+.imgCentro img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.imgBando{
+    float: left;
+    width: 10%;
+    margin: 0;
+     top: 66%;
+     left: 32%;
+    height: 7%;
+    position: absolute;
+}
+.imgBando img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#breakCarousel{
+    width:90%;
+    left: 10%;
+}
+
+#trenCarousel{
+    width:90%;
+    left: 10%;
+}
+
+#engineCarousel{
+    width:90%;
+    left: 10%;
+}
+
+.imgDerechaBando{
+    width: 69%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 31%
+}
+
+
+.imgDerechaBando img{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imgDerechatxtBando{
+    width: 50%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 48%
+}
+
+
+.imgDerechatxtBando img{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imgLukoil{
+    float: left;
+    width: 20%;
+    margin: 0;
+     top: 39%;
+     left:15%;
+    height: 14%;
+    position: absolute;
+}
+.imgLukoil img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imgDerechatxtLukoil{
+    width: 50%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 48%
+}
+
+.imgDerechaLukoil{
+    width: 69%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 31%
+}
+
+
+.imgDerechaLukoil img{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
