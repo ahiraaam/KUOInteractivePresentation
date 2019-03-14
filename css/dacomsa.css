@@ -47,7 +47,27 @@ body{
     width: 100%;
     height: 100%;
 }
+.imgDerechaTremec{
+    width: 55%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 45%
+}
 
+.imgDerechaTremec div{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.imgDerechaTremec img{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .menu{
     position: absolute;
     top: 10%;
@@ -151,12 +171,31 @@ margin: 0;
     height: 13%;
     position: absolute;
 }
+.imgSmallKUO{
+    float: left;
+    width: 50%;
+    margin: 0;
+    top: 53%;
+    left: 55%;
+    height: 13%;
+    position: absolute;
+}
 .imgSmall div{
     width: 100%;
     height: 100%;
     
 }
 .imgSmall img{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+.imgSmallKUO div{
+    width: 100%;
+    height: 100%;
+    
+}
+.imgSmallKUO img{
     position: absolute;
     width: 70%;
     height: 100%;
@@ -185,4 +224,12 @@ margin: 0;
     margin-left: 1%;
     /* font-size: 40px; */
     margin-top: 1%;
+}
+.imgAños{
+    width: 40%;
+    height: 50%;
+    margin: 0;
+    top: 45%;
+    position: absolute;
+    left: 55%;
 }
