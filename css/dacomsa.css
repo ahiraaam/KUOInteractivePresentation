@@ -2,7 +2,6 @@ body{
     margin: 0;
     background-image: url("../img/Dacomsa/fondo.jpg");
     font-family: 'Myriad Pro Regular';
-    cursor: pointer;
 
 }
 
@@ -64,19 +63,41 @@ body{
 }
 .imgDerechaTremec img{
 
+.imgDerechaTremec{
+    width: 55%;
+    height: 60%;
+    margin: 0;
+    top: 35%;
+    position: absolute;
+    left: 45%
+}
+
+.imgDerechaTremec div{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+.imgDerechaTremec img{
+
     position: absolute;
     width: 100%;
     height: 100%;
 }
 .menu{
     position: absolute;
+    top: 8%;
+    left: 40%;
+}
+.menu4{
+    position: absolute;
     top: 10%;
-    left: 43%;
+    left: 42%;
 }
 .menu2{
     position: absolute;
-    top: 10%;
-    left: 60%;
+    top: 8%;
+    left: 57%;
 }
 .menu3{
     position: absolute;
@@ -187,7 +208,7 @@ margin: 0;
 }
 .imgSmall img{
     position: absolute;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 .imgSmallKUO div{
@@ -201,20 +222,53 @@ margin: 0;
     height: 100%;
 }
 
-.plecasAños{
-    width: 57%;
-    height: 5%;
-    margin: 0;
-    top: 30%;
-    position: absolute;
-    left: 43%;
-    display: flex;
-}
-.plecasAños img{
-    width: 8%;
+section{
+    width: 100%;
     height: 100%;
-    float: left;
-    margin-right: 0.3%;
+}
+.left carousel-control{
+    
+    position: absolute; 
+    right: 70%;
+}
+.right carousel-control{
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: -.2%;
+}
+#suCarousel{
+    left: 1%;
+    width: 70%;
+}
+
+.imgCentro{
+    position: absolute;
+    width:60%;
+    top: 42%;
+    left: 20%;
+}
+
+.imgCentro img{
+    width: 100%;
+}
+
+.botCentro{
+  position: absolute;
+  width: 70%;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    left: 13%;
+    margin: 30%
+    transform: translate(-50%);
+
+}
+
+.botCentro img{
+    width: 100%;
+    margin: 10%;
+
 }
 .plecasAños p{
     width: 8%;
@@ -232,4 +286,15 @@ margin: 0;
     top: 45%;
     position: absolute;
     left: 55%;
+
+}
+.imgCentro{
+    position: absolute;
+    width:60%;
+    top: 42%;
+    left: 20%;
+}
+
+.imgCentro img{
+    width: 100%;
 }
