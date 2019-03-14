@@ -6,6 +6,12 @@ $(document).ready(function(){
     var i4=0;
     var d4=false;
 
+    $("#equipment").on("click",function(){
+        $(".kuo0").show();
+        $(".kuo1").hide(1000);
+        $(".kuo2").hide(1000);
+        d4 = true;
+    });
     $("#kuoToday").on("click",function(){
         $(".kuo0").hide(1000);
         $(".kuo1").show();
