@@ -271,7 +271,7 @@ $(document).ready(function(){
         $("#kuo09img").hide();
     });
     $("#kuo05").on("click",function(){
-        $("#kuo01img").show();
+        $("#kuo01img").hide();
         $("#kuo02img").hide();
         $("#kuo03img").hide();
         $("#kuo04img").hide();
