@@ -10,12 +10,22 @@ $(document).ready(function(){
         $(".kuo0").hide(1000);
         $(".kuo1").show();
         $(".kuo2").hide(1000);
+        $("#kuoToday").addClass("animated pulse");
         d4 = true;
     });
     $("#business").on("click",function(){
         $(".kuo0").hide(1000);
-        $(".kuo1").hide();
+        $(".kuo1").hide(1000);
         $(".kuo2").show(1000);
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
         d4 = true;
     });
     $("#back").on("click",function(){
@@ -216,6 +226,112 @@ $(document).ready(function(){
         $("#img2015").show();
         $("#img2018").hide();
     });
+    $("#kuo01").on("click",function(){
+        $("#kuo01img").show();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo02").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").show();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo03").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").show();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo04").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").show();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo05").on("click",function(){
+        $("#kuo01img").show();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").show();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo06").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").show();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo07").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").show();
+        $("#kuo08img").hide();
+        $("#kuo09img").hide();
+    });
+    $("#kuo08").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").show();
+        $("#kuo09img").hide();
+    });
+    $("#kuo09").on("click",function(){
+        $("#kuo01img").hide();
+        $("#kuo02img").hide();
+        $("#kuo03img").hide();
+        $("#kuo04img").hide();
+        $("#kuo05img").hide();
+        $("#kuo06img").hide();
+        $("#kuo07img").hide();
+        $("#kuo08img").hide();
+        $("#kuo09img").show();
+    });
+    $("#back").on("click",function(){
+        
+        $(".kuo0").show(1000);
+        $(".kuo1").hide(1000);
+        $(".kuo2").hide(1000);
+     
+ });
 });
 
 

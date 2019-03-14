@@ -2,10 +2,34 @@ body{
     margin: 0;
     background-image: url("../img/Dacomsa/fondo.jpg");
     font-family: 'Myriad Pro Regular';
+    cursor: pointer;
 
 }
 
-
+#slogan{
+    top: 19.5%;
+    left: 78.5%;
+    position: absolute;
+    color: white;
+    margin: 0%;
+    font-size: 22px;
+}
+#slogan2{
+    top: 20%;
+    left: 79%;
+    position: absolute;
+    color: white;
+    margin: 0%;
+    font-size: 18px;
+}
+#slogan3{
+    top: 20%;
+    left: 84%;
+    position: absolute;
+    color: white;
+    margin: 0%;
+    font-size: 22px;
+}
 .header{
     position: absolute;
     width: 100%;
@@ -46,23 +70,10 @@ body{
     width: 100%;
     height: 100%;
 }
-.imgDerechaTremec{
-    width: 55%;
-    height: 60%;
-    margin: 0;
-    top: 35%;
-    position: absolute;
-    left: 45%
-}
-
-.imgDerechaTremec div{
-    
-    width: 100%;
+.imgDerecha video{
     height: 100%;
-    
+    width: 100%;
 }
-.imgDerechaTremec img{
-
 .imgDerechaTremec{
     width: 55%;
     height: 60%;
@@ -86,18 +97,13 @@ body{
 }
 .menu{
     position: absolute;
-    top: 8%;
-    left: 40%;
-}
-.menu4{
-    position: absolute;
     top: 10%;
-    left: 42%;
+    left: 41%;
 }
 .menu2{
     position: absolute;
-    top: 8%;
-    left: 57%;
+    top: 10%;
+    left: 58%;
 }
 .menu3{
     position: absolute;
@@ -133,25 +139,25 @@ margin: 0;
 }
 
 .redesSociales{
-    
     position: absolute;
     top: 75%;
-    width: 30%;
-    height: 12.5%;
-    left: 12%;
+    width: 25%;
+    height: 10%;
+    left: 15%;
     display: flex;
 }
 .redesSociales img{
-    width: 25%;
-    margin-right: 2%;
+    width: 22%;
+    margin-right: 5%;
 }
 
 .video06{
     position: absolute;
-    width: 50%;
-    top: 45%;
-    left: 48%;
+    width: 55%;
+    top: 35%;
+    left: 45%;
     display: none;
+    height: 40%;
 }
 
 .video06 video{
@@ -167,6 +173,9 @@ margin: 0;
 .link06 p {
     font-size: 2.4vw;
     color: #92161a;
+}
+.link06:hover{
+    font-weight: 400;
 }
 
 #home img{
@@ -208,7 +217,7 @@ margin: 0;
 }
 .imgSmall img{
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 .imgSmallKUO div{
@@ -222,60 +231,27 @@ margin: 0;
     height: 100%;
 }
 
-section{
-    width: 100%;
-    height: 100%;
-}
-.left carousel-control{
-    
-    position: absolute; 
-    right: 70%;
-}
-.right carousel-control{
-    width: 10%;
-    height: 10%;
-    position: absolute;
-    top: -.2%;
-}
-#suCarousel{
-    left: 1%;
-    width: 70%;
-}
-
-.imgCentro{
-    position: absolute;
-    width:60%;
-    top: 42%;
-    left: 20%;
-}
-
-.imgCentro img{
-    width: 100%;
-}
-
-.botCentro{
-  position: absolute;
-  width: 70%;
+.plecasAños{
+    width: 57%;
+    height: 5%;
+    margin: 0;
     top: 30%;
+    position: absolute;
+    left: 43%;
     display: flex;
-    align-items: center;
-    left: 13%;
-    margin: 30%
-    transform: translate(-50%);
-
 }
-
-.botCentro img{
-    width: 100%;
-    margin: 10%;
-
+.plecasAños img{
+    width: 8%;
+    height: 100%;
+    float: left;
+    margin-right: 0.3%;
 }
 .plecasAños p{
     width: 8%;
     height: 100%;
     float: left;
     /* margin-right: 1%; */
-    margin-left: 1%;
+    margin-left: 1.5%;
     /* font-size: 40px; */
     margin-top: 1%;
 }
@@ -286,15 +262,54 @@ section{
     top: 45%;
     position: absolute;
     left: 55%;
-
 }
-.imgCentro{
+.logosKUO{
+    top: 38%;
     position: absolute;
-    width:60%;
-    top: 42%;
-    left: 20%;
+    width: 10%;
+    height: 10%;
+    left: 15%;
 }
-
-.imgCentro img{
-    width: 100%;
+#kuo01{
+    top: 38%;
+    left: 15%;
+}
+#kuo02{
+    top: 39%;
+    left: 28%;
+}
+#kuo03{
+    top: 57%;
+    left: 15%;
+}
+#kuo04{
+    top: 56%;
+    left: 29%;
+}
+#kuo05{
+    top: 75%;
+    left: 12%;
+}
+#kuo06{
+    top: 75%;
+    left: 24%;
+}
+#kuo07{
+    top: 75%;
+    left: 35%;
+}
+#kuo08{
+    top: 85%;
+    left: 18%;
+}
+#kuo09{
+    top: 85%;
+    left: 31%;
+}
+#kuo01img, #kuo02img, #kuo03img, #kuo04img{
+    width: 80%;
+    height: 80%;
+    left: 16%;
+    top: 10%;
+    position: absolute;
 }

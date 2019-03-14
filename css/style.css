@@ -15,20 +15,20 @@ p{
   
 .contenedorLogos {
   position: absolute;
-  width: 55%;
-  height: 30%;
-    top: 65%;
+    width: 55%;
+    height: 15%;
+    top: 70%;
     display: flex;
     align-items: center;
-    left: 23%;
-    margin: 10%;
-    transform: translate(-50%);
+    left: 50%;
+    /* margin: 10%; */
+    transform: translate(-45%);
     
 }
 
 .logo{
-  width: 90%;
-  height:90%;
+  width: 80%;
+  height:80%;
   float: left;
   transition: opacity 0.5s ease-in-out;
 }
@@ -91,4 +91,17 @@ height: 100%;
 }
 #option2 img{
   width: 100%;
+}
+#home img{
+  position: absolute;
+  width: 3%;
+  
+  left: 90%;
+}
+#back{
+  position: absolute;
+  width: 3%;
+  
+  left: 80%;
+
 }

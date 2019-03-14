@@ -52,12 +52,12 @@ $(document).ready(function(){
     
     });
     $("#back").on("click",function(){
-        $(".tf1").hide();
-        $(".tf2").hide();
-        $(".tf3").hide();
-        $(".tf4").hide();
-        $("#00izquierda").show(1000);
-        $("#00derecha").show(1000);
+        $(".tf1").hide(1000);
+        $(".tf2").hide(1000);
+        $(".tf3").hide(1000);
+        $(".tf4").hide(1000);
+        $("#00izquierda").show();
+        $("#00derecha").show();
  });
 });
 
