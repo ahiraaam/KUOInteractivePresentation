@@ -7,6 +7,10 @@
     $('.tren').hide();
     $('.freno').hide();
     $('.lubricante').hide();
+    $(".logosBrakes").hide();
+    $(".logosTrain").hide();
+    $(".logosEngine").hide();
+    $(".logosLubricants").hide();
 
     var modelo = document.getElementById('modelo');
     var engine = document.getElementById('engine');
@@ -21,30 +25,38 @@
   $("#logo3").hover(function(){
     modelo.style.opacity = "0.2";
     engine.style.opacity = "0.9";
+    $(".logosEngine").show();
     }, function(){
     modelo.style.opacity = "0.9";
     engine.style.opacity = "0.2";
+    $(".logosEngine").hide();
   });
   $("#logo1").hover(function(){
     modelo.style.opacity = "0.2";
     brake.style.opacity = "0.9";
+    $(".logosBrakes").show();
     }, function(){
     modelo.style.opacity = "0.9";
     brake.style.opacity = "0.2";
+    $(".logosBrakes").hide();
   });
   $("#logo2").hover(function(){
     modelo.style.opacity = "0.2";
     train.style.opacity = "0.9";
+    $(".logosTrain").show();
     }, function(){
     modelo.style.opacity = "0.9";
     train.style.opacity = "0.2";
+    $(".logosTrain").hide();
   });
   $("#logo4").hover(function(){
     modelo.style.opacity = "0.2";
     lubri.style.opacity = "0.9";
+    $(".logosLubricants").show();
     }, function(){
     modelo.style.opacity = "0.9";
     lubri.style.opacity = "0.2";
+    $(".logosLubricants").hide();
   });
 
   
@@ -108,21 +120,59 @@
     });
 
 
-  $("body").on("click",function(){
+/*  $("body").on("click",function(){
+
     if (Bando) {
-        console.log("holi")
-    $('#engineCarousel').show();
-    $('.imgDerechatxtBando').hide();
-    Bando=false;}
+    
+    Bando=false;
+    }
      if (Lukoil) {
         console.log("holi")
     $('#luk').show();
     $('.imgDerechatxtLukoil').hide();
     Lukoil=false;}
     });
+*/
+    $(".header").on("click",function(){
+    $('#engineCarousel').show();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+    $('.imgDerechatxtBando').hide();
 
+
+
+    $("#trenCarousel").show();
+    $('.tspCarousel').hide();
+    $('.autopar2Carousel').hide();
+    $('#tremecCarousel').hide();
+    $('#raceCarousel').hide();
+
+
+    $('#breakCarousel').show();
+    $('.fritecCarousel').hide();
+    $('#bioCarousel').hide();
+    $('.autoparCarousel').hide();
+
+
+    $('#luk').show();
+    $('.imgDerechaLukoil').hide();
+    $('.imgDerechatxtLukoil').hide();
+    $('.lukoiCarousel').hide();
+
+
+    });
   $(".imgBando").on("click",function(){
     $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
     $('.imgDerechaBando').hide();
     $('.imgDerechatxtBando').show();
     setTimeout(() => Bando=true, 1000);
@@ -132,7 +182,120 @@
     $('#luk').hide();
     $('.imgDerechaLukoil').hide();
     $('.imgDerechatxtLukoil').show();
+    $('.lukoiCarousel').show();
     setTimeout(() => Lukoil=true, 1000);
     });
+
+  $(".imgMoresa").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').show();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+  });  
+  $(".imgMoresaDiesel").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').show();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+  }); 
+  $(".imgTFVictor").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').show();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+  }); 
+  $(".imgTFVictorDiesel").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').show();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+    
+  }); 
+  $(".imgSello").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').show();
+    $('#VehycoCarousel').hide();
+  }); 
+  $(".imgVehyco").on("click",function(){
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').show();
+  }); 
+
+
+
+  $(".imgFritec").on("click",function(){
+    $('#breakCarousel').hide();
+    $('.fritecCarousel').show();
+    $('#bioCarousel').hide();
+    $('.autoparCarousel').hide();
+    
+  }); 
+  $(".imgBioceramic").on("click",function(){
+    $('#breakCarousel').hide();
+    $('.fritecCarousel').hide();
+    $('#bioCarousel').show();
+    $('.autoparCarousel').hide();
+    
+  }); 
+  $(".imgAutopar").on("click",function(){
+    $('#breakCarousel').hide();
+    $('.fritecCarousel').hide();
+    $('#bioCarousel').hide();
+    $('.autoparCarousel').show();
+    
+  }); 
+  $(".imgTSP").on("click",function(){
+    $("#trenCarousel").hide();
+    $('.tspCarousel').show();
+    $('.autopar2Carousel').hide();
+    $('#tremecCarousel').hide();
+    $('#raceCarousel').hide();
+    
+  }); 
+  $(".imgTremec").on("click",function(){
+    $("#trenCarousel").hide();
+    $('.tspCarousel').hide();
+    $('.autopar2Carousel').hide();
+    $('#tremecCarousel').show();
+    $('#raceCarousel').hide();
+    
+  }); 
+  $(".imgAutopar2").on("click",function(){
+    $("#trenCarousel").hide();
+    $('.tspCarousel').hide();
+    $('.autopar2Carousel').show();
+    $('#tremecCarousel').hide();
+    $('#raceCarousel').hide();
+    
+  }); 
+  $(".imgRace").on("click",function(){
+    $("#trenCarousel").hide();
+    $('.tspCarousel').hide();
+    $('.autopar2Carousel').hide();
+    $('#tremecCarousel').hide();
+    $('#raceCarousel').show();
+    
+  }); 
 
 });

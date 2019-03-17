@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
     $(".kuo0").show();
+    $("#01izquierda").hide();
     $(".kuo1").hide();
     $(".kuo2").hide();
     var i4=0;
@@ -8,6 +9,8 @@ $(document).ready(function(){
 
     $("#equipment").on("click",function(){
         $(".kuo0").show();
+        $("#00izquierda").show();
+        $(".containerAños").hide();
         $(".kuo1").hide(1000);
         $(".kuo2").hide(1000);
         d4 = true;
@@ -16,7 +19,8 @@ $(document).ready(function(){
         $(".kuo0").hide(1000);
         $(".kuo1").show();
         $(".kuo2").hide(1000);
-        $("#kuoToday").addClass("animated pulse");
+        $("#01izquierda").show();
+       
         d4 = true;
     });
     $("#business").on("click",function(){
@@ -37,11 +41,21 @@ $(document).ready(function(){
     $("#back").on("click",function(){
         $("#00izquierda").show();
         $("#00derecha").show();
+        $(".containerAños").hide();
         $(".tremec1").hide(1000);
         $(".tremec2").hide(1000);
     });
+
+    $("#paisesKUO").on("click",function(){
+        $("#mapa").show();
+    });
+    $("#sinpaisesKUO").on("click",function(){
+        $("#mapa").hide();
+    });
+
+
     $("#p1973").on("click",function(){
-        console.log("ho");
+       
         $(".containerAños").show();
         $("#img1973").show();
         $("#img1980").hide();
@@ -57,7 +71,8 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p2018").on("click",function(){
-        console.log("ho");
+      
+       
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -73,7 +88,8 @@ $(document).ready(function(){
         $("#img2018").show();
     });
     $("#p1980").on("click",function(){
-        console.log("ho");
+       
+      
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").show();
@@ -89,7 +105,7 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p1988").on("click",function(){
-        console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -105,7 +121,7 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p1997").on("click",function(){
-        console.log("ho");
+      
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -121,7 +137,8 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p2007").on("click",function(){
-        console.log("ho");
+ 
+ 
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -138,6 +155,7 @@ $(document).ready(function(){
     });
     $("#p2008").on("click",function(){
         console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -153,7 +171,8 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p2009").on("click",function(){
-        console.log("ho");
+
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -169,7 +188,7 @@ $(document).ready(function(){
         $("#img2018").hide();
     });
     $("#p2010").on("click",function(){
-        console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -186,6 +205,7 @@ $(document).ready(function(){
     });
     $("#p2011").on("click",function(){
         console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -202,6 +222,7 @@ $(document).ready(function(){
     });
     $("#p2013").on("click",function(){
         console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -218,6 +239,7 @@ $(document).ready(function(){
     });
     $("#p2015").on("click",function(){
         console.log("ho");
+
         $(".containerAños").show();
         $("#img1973").hide();
         $("#img1980").hide();
@@ -294,9 +316,9 @@ $(document).ready(function(){
         $("#kuo04img").hide();
         $("#kuo05img").hide();
         $("#kuo06img").show();
-        $("#kuo07img").hide();
-        $("#kuo08img").hide();
-        $("#kuo09img").hide();
+        $("#kuo07img").show();
+        $("#kuo08img").show();
+        $("#kuo09img").show();
     });
     $("#kuo07").on("click",function(){
         $("#kuo01img").hide();
