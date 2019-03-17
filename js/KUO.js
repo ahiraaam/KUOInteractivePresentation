@@ -49,7 +49,7 @@ $(document).ready(function(){
     $("#paisesKUO").on("click",function(){
         $("#mapa").show();
     });
-    $("#sinpaisesKUO").on("click",function(){
+    $(".sinpaisesKUO").on("click",function(){
         $("#mapa").hide();
     });
 

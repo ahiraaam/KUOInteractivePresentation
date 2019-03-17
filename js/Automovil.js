@@ -187,6 +187,7 @@
     });
 
   $(".imgMoresa").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').show();
     $('#moresaDieselCarousel').hide();
@@ -196,6 +197,7 @@
     $('#VehycoCarousel').hide();
   });  
   $(".imgMoresaDiesel").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').show();
@@ -205,6 +207,7 @@
     $('#VehycoCarousel').hide();
   }); 
   $(".imgTFVictor").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').hide();
@@ -214,6 +217,7 @@
     $('#VehycoCarousel').hide();
   }); 
   $(".imgTFVictorDiesel").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').hide();
@@ -224,6 +228,7 @@
     
   }); 
   $(".imgSello").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').hide();
@@ -233,6 +238,7 @@
     $('#VehycoCarousel').hide();
   }); 
   $(".imgVehyco").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').hide();
@@ -245,6 +251,7 @@
 
 
   $(".imgFritec").on("click",function(){
+    $('.imgDerechatxtBando').hide();
     $('#breakCarousel').hide();
     $('.fritecCarousel').show();
     $('#bioCarousel').hide();

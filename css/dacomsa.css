@@ -5,7 +5,7 @@ body{
     cursor: pointer;
 
 }
-a:hover 
+body a:link 
 { 
 text-decoration:none; 
 } 
@@ -169,12 +169,12 @@ text-decoration:none;
 }
 .menu{
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 41%;
 }
 .menu2{
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 58%;
 }
 .menu3{
@@ -682,7 +682,7 @@ margin: 0;
     width: 40%;
     /* height: 60%; */
     margin: 0;
-    top: 30%;
+    top: 35%;
     position: absolute;
     left: 52%;
 }
