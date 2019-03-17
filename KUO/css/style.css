@@ -1,0 +1,121 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Myriad Pro Regular';
+
+  }
+p{
+  font-family: 'Myriad Pro Regular';
+  font-weight:normal;
+} 
+
+ 
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+  
+.contenedorLogos {
+  position: absolute;
+    width: 55%;
+    height: 15%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    /* margin: 10%; */
+    transform: translate(-45%);
+    
+}
+
+.logo{
+  width: 80%;
+  height:80%;
+  float: left;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.logo:hover{
+  opacity: 1;
+}
+.logo img{
+
+width: 100%;
+height: 100%;
+}
+.imagen{
+  position: absolute;
+  width: 30%;
+  height: 38%;
+  top: 19%;
+  left: 50%;
+  transform: translate(-35%);
+  
+}
+.imagen img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.logoPrincipalBlanco{
+  background-color: red;
+  position: absolute;
+  display: none;
+}
+.logoPrincipalBlanco:hover{
+  display: inline-block;
+}
+
+
+#option1{
+  display: flex;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  
+  width: 30%;
+  height: 3%;
+}
+#option1 img{
+  width: 100%;
+}
+#option2{
+  display: flex;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  
+  width: 30%;
+  height: 3%;
+}
+#option2 img{
+  width: 100%;
+}
+#home img{
+  position: absolute;
+  width: 3%;
+  
+  left: 90%;
+}
+#back{
+  position: absolute;
+  width: 3%;
+  
+  left: 80%;
+
+}
+#logoKuo{
+  position: absolute;
+  width: 7%;
+  height: 12%;
+  top: 72%;
+  left: 80%;
+  transform: translate(-50%);
+}
+#logoKuo img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

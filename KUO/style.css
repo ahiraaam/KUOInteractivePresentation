@@ -1,0 +1,93 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    font-family: 'Myriad Pro Regular';
+
+  }
+p{
+  font-family: 'Myriad Pro Regular';
+  font-weight:normal;
+} 
+
+ 
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
+  
+.contenedorLogos {
+  position: absolute;
+  width: 55%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    left: 23%;
+    margin: 10%
+    transform: translate(-50%);
+
+}
+
+.logo{
+  width: 90%;
+  height:90%;
+  float: left;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.logo:hover{
+  opacity: 1;
+}
+.logo img{
+
+width: 100%;
+height: 100%;
+}
+.imagen{
+  position: absolute;
+  width: 30%;
+  height: 63%;
+  top: 5%;
+  left: 50%;
+  transform: translate(-55%);
+  
+}
+.imagen img{
+  position: absolute;
+  height: 100%;
+}
+.logoPrincipalBlanco{
+  background-color: red;
+  position: absolute;
+  display: none;
+}
+.logoPrincipalBlanco:hover{
+  display: inline-block;
+}
+
+
+#option1{
+  display: flex;
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  
+  width: 30%;
+  height: 3%;
+}
+#option1 img{
+  width: 100%;
+}
+#option2{
+  display: flex;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  
+  width: 30%;
+  height: 3%;
+}
+#option2 img{
+  width: 100%;
+}
