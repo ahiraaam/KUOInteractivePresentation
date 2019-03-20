@@ -141,6 +141,7 @@
     $('#TFDieselCarousel').hide();
     $('#SelloCarousel').hide();
     $('#VehycoCarousel').hide();
+    $('#IEACarousel').hide();
     $('.imgDerechatxtBando').hide();
 
 
@@ -173,6 +174,8 @@
     $('#TFDieselCarousel').hide();
     $('#SelloCarousel').hide();
     $('#VehycoCarousel').hide();
+    $('#IEACarousel').hide();
+
     $('.imgDerechaBando').hide();
     $('.imgDerechatxtBando').show();
     setTimeout(() => Bando=true, 1000);
@@ -193,6 +196,8 @@
     $('#moresaDieselCarousel').hide();
     $('#TFCarousel').hide();
     $('#TFDieselCarousel').hide();
+    $('#IEACarousel').hide();
+
     $('#SelloCarousel').hide();
     $('#VehycoCarousel').hide();
   });  
@@ -201,6 +206,8 @@
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
     $('#moresaDieselCarousel').show();
+    $('#IEACarousel').hide();
+
     $('#TFCarousel').hide();
     $('#TFDieselCarousel').hide();
     $('#SelloCarousel').hide();
@@ -210,6 +217,7 @@
     $('.imgDerechatxtBando').hide();
     $('#engineCarousel').hide();
     $('.moresaCarousel').hide();
+    $('#IEACarousel').hide();
     $('#moresaDieselCarousel').hide();
     $('#TFCarousel').show();
     $('#TFDieselCarousel').hide();
@@ -225,6 +233,7 @@
     $('#TFDieselCarousel').show();
     $('#SelloCarousel').hide();
     $('#VehycoCarousel').hide();
+    $('#IEACarousel').hide();
     
   }); 
   $(".imgSello").on("click",function(){
@@ -236,6 +245,7 @@
     $('#TFDieselCarousel').hide();
     $('#SelloCarousel').show();
     $('#VehycoCarousel').hide();
+
   }); 
   $(".imgVehyco").on("click",function(){
     $('.imgDerechatxtBando').hide();
@@ -246,6 +256,20 @@
     $('#TFDieselCarousel').hide();
     $('#SelloCarousel').hide();
     $('#VehycoCarousel').show();
+    $('#IEACarousel').hide();
+
+  }); 
+  $(".imgIEA").on("click",function(){
+    $('.imgDerechatxtBando').hide();
+    $('#engineCarousel').hide();
+    $('.moresaCarousel').hide();
+    $('#moresaDieselCarousel').hide();
+    $('#TFCarousel').hide();
+    $('#TFDieselCarousel').hide();
+    $('#SelloCarousel').hide();
+    $('#VehycoCarousel').hide();
+    $('#IEACarousel').show();
+
   }); 
 
 

@@ -25,7 +25,13 @@ p{
     transform: translate(-45%);
     
 }
-
+#slogan_KUO{
+  position: absolute;
+    top: 60%;
+    width: 45%;
+    left: 52%;
+    transform: translate(-50%);
+}
 .logo{
   width: 80%;
   height:80%;

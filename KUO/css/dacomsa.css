@@ -236,6 +236,20 @@ margin: 0;
     width: 100%;
     position: absolute;
 }
+.video05{
+    position: absolute;
+    width: 60%;
+    top: 35%;
+    left: 40%;
+    
+    height: 40%;
+}
+
+.video05 video{
+    width: 100%;
+    position: absolute;
+}
+
 .link06{
     display: none;
     position: absolute;
@@ -258,9 +272,8 @@ margin: 0;
 }
 #dacomsa img{
     position: absolute;
-    width: 8%;
-    left: 75%;
-    top: 1.5%;
+    width: 5%;
+    left: 79%;
 }
 #back{
     position: absolute;
@@ -311,11 +324,42 @@ margin: 0;
 }
 .imgSmall{
     float: left;
-    width: 50%;
+    width: 26%;
     margin: 0;
-     top: 53%;
-     left: 8%;
-    height: 13%;
+    
+    height: 9%;
+    position: absolute;
+}
+.imgSmall1{
+    left: 12%;
+    top: 42%;
+}
+.imgSmall2{
+    top: 54%;
+    left: 14%;
+}
+.imgSmall3{
+    left: 16%;
+    top: 66%;
+}
+.imgDerecha03 {
+    position: absolute;
+  
+}
+img.imgDerecha02{
+    height: 70%;
+    width: 90%;
+    top: 15%;
+    position: absolute;
+    left: 8%;
+}
+img.imgDerecha03{
+    width: 90%;
+    left: 10%;
+}
+img#dacomsa3img02{
+    width: 70%;
+    left: 18%;
     position: absolute;
 }
 .imgSmall div{

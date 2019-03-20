@@ -37,6 +37,24 @@ $(document).ready(function(){
         $(".Dacomsa3").hide(1000);
         $(".Dacomsa4").hide(1000);
         $(".Dacomsa5").hide(1000);
+        $(".imgDerecha02").hide();
+        $(".imgDerecha03").hide();
+        $(".imgSmall1").on("click",function(){
+            $(".imgDerecha01").show();
+            $(".imgDerecha02").hide();
+            $(".imgDerecha03").hide();
+            console.log("hola");
+        });
+        $(".imgSmall2").on("click",function(){
+            $(".imgDerecha01").hide();
+            $(".imgDerecha02").show();
+            $(".imgDerecha03").hide();
+        });
+        $(".imgSmall3").on("click",function(){
+            $(".imgDerecha01").hide();
+            $(".imgDerecha02").hide();
+            $(".imgDerecha03").show();
+        });
     });
 
     $("#dist").on("click",function(){
@@ -51,6 +69,45 @@ $(document).ready(function(){
         $(".Dacomsa3").show();
         $(".Dacomsa4").hide(1000);
         $(".Dacomsa5").hide(1000);
+            $("#dacomsa3img01").show();
+            $("#dacomsa3img02").hide();
+            $("#dacomsa3img03").hide();
+            $("#dacomsa3img04").hide();
+            $("#dacomsa3img05").hide();
+
+        $("#location").on("click",function(){
+            $("#dacomsa3img01").hide();
+            $("#dacomsa3img02").show();
+            $("#dacomsa3img03").hide();
+            $("#dacomsa3img04").hide();
+            $("#dacomsa3img05").hide();
+
+        });
+        $("#time").on("click",function(){
+            $("#dacomsa3img01").hide();
+            $("#dacomsa3img02").hide();
+            $("#dacomsa3img03").show();
+            $("#dacomsa3img04").hide();
+            $("#dacomsa3img05").hide();
+
+        });
+        $("#technology").on("click",function(){
+            $("#dacomsa3img01").hide();
+            $("#dacomsa3img02").hide();
+            $("#dacomsa3img03").hide();
+            $("#dacomsa3img04").show();
+            $("#dacomsa3img05").hide();
+
+        });
+        $("#service").on("click",function(){
+            $("#dacomsa3img01").hide();
+            $("#dacomsa3img02").hide();
+            $("#dacomsa3img03").hide();
+            $("#dacomsa3img04").hide();
+            $("#dacomsa3img05").show();
+
+        });
+        
     });
 
     $("#tech").on("click",function(){
@@ -97,4 +154,5 @@ $(document).ready(function(){
         $(".Dacomsa4").hide(1000);
         $(".Dacomsa5").hide(1000);
     });
+    
 });
